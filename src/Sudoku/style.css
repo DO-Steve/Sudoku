@@ -1,0 +1,74 @@
+.light .btn{
+    -fx-background-color : #3399ff;
+    -fx-text-fill : white;
+}
+
+.dark .btn{
+    -fx-background-color : #2c3e50;
+    -fx-text-fill : #bdc3c7;
+}
+
+#nightMode{
+    -fx-font-size : 15;
+}
+
+#timer{
+    -fx-text-fill : black;
+    -fx-font-size : 20;
+}
+
+#newGame{
+    -fx-font-size : 30;
+}
+
+#sudokuGrid Line{
+    -fx-stroke-width : 3;
+}
+
+#sudokuGrid .sudokuBox Line{
+    -fx-stroke-width : 1;
+}
+
+.dark{
+    -fx-background-color : #333333;
+}
+
+.dark #sudokuGrid Line{
+    -fx-stroke : #bdc3c7;
+}
+
+.dark #timer{
+    -fx-text-fill : #bdc3c7;
+}
+
+.sudokuNumber:disabled{
+    -fx-opacity : 0.5;
+    -fx-cursor: default;
+}
+
+.sudokuNumber.selected{
+    -fx-background-color: rgba(51, 153, 255, 0.2);
+
+}
+
+.sudokuNumber{
+    -fx-font-size : 30;
+}
+
+.sudokuNumber:hover {
+    -fx-background-color: rgba(31, 143, 232, 0.1);
+}
+.dark .sudokuNumber {
+    -fx-text-fill: grey;
+}
+
+.erreur{
+    -fx-background-color: rgba(200, 0, 0, 0.5)
+}
+
+.dark.dialog, .dark.dialog *.header-panel,
+.dark.dialog *.header-panel *.label,
+.dark.dialog > *.button-bar > *.container > Button {
+    -fx-background-color: #333333;
+    -fx-text-fill: #bdc3c7;
+}
