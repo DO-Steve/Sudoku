@@ -25,6 +25,9 @@ Bleu foncé (mode nuit)
 ![Sudoku Mode Jour](https://i.imgur.com/XjNPlmt.png)
 ![Sudoku Mode Nuit](https://i.imgur.com/P1Qx14B.png)
 
+Comment jouer
+=
+Vous pouvez télécharger le ;jar dans le dossier out ou télécharger le projet et le compiler grâce à votre IDE
 
 Credits 
 =
