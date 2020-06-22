@@ -27,7 +27,7 @@ Bleu foncé (mode nuit)
 
 Comment jouer
 =
-Vous pouvez télécharger le ;jar dans le dossier out ou télécharger le projet et le compiler grâce à votre IDE
+Vous pouvez télécharger le .jar dans le dossier /out ou télécharger le projet et le compiler grâce à votre IDE
 
 Credits 
 =
